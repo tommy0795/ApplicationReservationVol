@@ -10,6 +10,7 @@
 
  /*========================     commandes git pour les nuls     =====================
 
+           
               git add --all  /ou (pour modifier le ou les fichiers dans la branche master)
               git add +fichier 
               git log --online +nom fichier /pour voir les commit effectuer sur le fichier
@@ -27,6 +28,12 @@
               git checkout +nombranch / pour revenir sur la branch
               git branch + nom /pour crée une branche
               
+=======
+              git log --online +nom fichier /pour voir les commit effectuer sur le fichier
+ 
+                  git stutus 
+ =           git commit -a -m /pour mettre a jour le doc sur le git            =
+              git  checkout + nomde l'id du 
 
 
  =============================================*/
