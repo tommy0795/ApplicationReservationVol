@@ -23,7 +23,10 @@
               git revert +id / permet de defaire un commit(pas de perte dans l'historique)
               git reset +id / retour en arriere (pas de securitée)
 
-              git checkout master /pour moddifier
+              git checkout master /pour revenir sur la branche master
+              git checkout +nombranch / pour revenir sur la branch
+              git branch + nom /pour crée une branche
+              
 
 
  =============================================*/
