@@ -9,12 +9,21 @@
  
 
  /*========================     commandes git pour les nuls     =====================
-              git log --online +nom fichier /pour voir les commit effectuer sur le fichier
- 
-                  git stutus 
- =           git commit -a -m /pour mettre a jour le doc sur le git            =
-              git  checkout + nomde l'id du commit /retour en arriere au niveau de la modif  sauvegarder
 
+              git add --all  /ou (pour modifier le ou les fichiers dans la branche master)
+              git add +fichier 
+              git log --online +nom fichier /pour voir les commit effectuer sur le fichier
+              git stutus 
+ =            git commit -a -m /pour mettre a jour le doc sur le git            =
+              git  checkout + nomde l'id du commit /retour en arriere au niveau de la modif  sauvegarder
+              git  checkout + id /pour voir l'etat d'un fichier soit avant modif soit apres
+              git checkout master /pour revenir au debut
+
+
+              git revert +id / permet de defaire un commit(pas de perte dans l'historique)
+              git reset +id / retour en arriere (pas de securitée)
+
+              git checkout master /pour moddifier
 
 
  =============================================*/
